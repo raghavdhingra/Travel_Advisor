@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_808560ba8ca84e05811dbe2e80137e9e {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_808560ba8ca84e05811dbe2e80137e9e" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_808560ba8ca84e05811dbe2e80137e9e = L.map(
+        'map_808560ba8ca84e05811dbe2e80137e9e', {
+        center: [11.4521, 92.7056],
+        zoom: 9,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_eb9060cec2ef43719a9972a7cf576813 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_808560ba8ca84e05811dbe2e80137e9e);
+    
+        var marker_4a434d68edf947f6bf3c891dde29c3d4 = L.marker(
+            [11.4521, 92.7056],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_808560ba8ca84e05811dbe2e80137e9e);
+        
+    
+
+                var icon_3510559114884638b0583b320f23ba04 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4a434d68edf947f6bf3c891dde29c3d4.setIcon(icon_3510559114884638b0583b320f23ba04);
+            
+    
+            var popup_4303df7f013845bc967beda97ce68b64 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a1ef3baa3ce7406e9d301322fb0d8805 = $(`<div id="html_a1ef3baa3ce7406e9d301322fb0d8805" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Cellular Jail National Memorial</strong></a></div>`)[0];
+                popup_4303df7f013845bc967beda97ce68b64.setContent(html_a1ef3baa3ce7406e9d301322fb0d8805);
+            
+
+            marker_4a434d68edf947f6bf3c891dde29c3d4.bindPopup(popup_4303df7f013845bc967beda97ce68b64)
+            ;
+
+            
+        
+    
+        marker_4a434d68edf947f6bf3c891dde29c3d4.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_9f188faa896b4b3285dd5418ac4f534f = L.marker(
+            [11.9845, 92.9508],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_808560ba8ca84e05811dbe2e80137e9e);
+        
+    
+
+                var icon_3bd64a57d62744d7ab421b1409babf23 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9f188faa896b4b3285dd5418ac4f534f.setIcon(icon_3bd64a57d62744d7ab421b1409babf23);
+            
+    
+            var popup_64dad72b0b9d409883005746811c3ca0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_14d1bae18e4c493fae9c8aa69c366762 = $(`<div id="html_14d1bae18e4c493fae9c8aa69c366762" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Radhanagar Beach</strong></a></div>`)[0];
+                popup_64dad72b0b9d409883005746811c3ca0.setContent(html_14d1bae18e4c493fae9c8aa69c366762);
+            
+
+            marker_9f188faa896b4b3285dd5418ac4f534f.bindPopup(popup_64dad72b0b9d409883005746811c3ca0)
+            ;
+
+            
+        
+    
+        marker_9f188faa896b4b3285dd5418ac4f534f.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_eb576983624e45f39d3ad5ead1831748 = L.marker(
+            [11.506, 92.7015],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_808560ba8ca84e05811dbe2e80137e9e);
+        
+    
+
+                var icon_f6eb392e4c094745b3082765ad8bc467 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eb576983624e45f39d3ad5ead1831748.setIcon(icon_f6eb392e4c094745b3082765ad8bc467);
+            
+    
+            var popup_0276d3adb501483d8c948f5dbb3b126a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c548089ba8d44b55a7cc5ad67962cda7 = $(`<div id="html_c548089ba8d44b55a7cc5ad67962cda7" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Chidiya Tapu</strong></a></div>`)[0];
+                popup_0276d3adb501483d8c948f5dbb3b126a.setContent(html_c548089ba8d44b55a7cc5ad67962cda7);
+            
+
+            marker_eb576983624e45f39d3ad5ead1831748.bindPopup(popup_0276d3adb501483d8c948f5dbb3b126a)
+            ;
+
+            
+        
+    
+        marker_eb576983624e45f39d3ad5ead1831748.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_bc914a86e3724fc6aa354ec18d03565a = L.marker(
+            [11.8838, 93.056],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_808560ba8ca84e05811dbe2e80137e9e);
+        
+    
+
+                var icon_1b836fea70d74563a578cf39418c5c0a = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bc914a86e3724fc6aa354ec18d03565a.setIcon(icon_1b836fea70d74563a578cf39418c5c0a);
+            
+    
+            var popup_8cc379b91be544a18a56cbbeb4a6ef84 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f89be8ff8e4741baad6b2e93b509adab = $(`<div id="html_f89be8ff8e4741baad6b2e93b509adab" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Taj Exotica Resort And Spa</strong></a></div>`)[0];
+                popup_8cc379b91be544a18a56cbbeb4a6ef84.setContent(html_f89be8ff8e4741baad6b2e93b509adab);
+            
+
+            marker_bc914a86e3724fc6aa354ec18d03565a.bindPopup(popup_8cc379b91be544a18a56cbbeb4a6ef84)
+            ;
+
+            
+        
+    
+        marker_bc914a86e3724fc6aa354ec18d03565a.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_e074422fcd5d42eb9101c55da100da7e = L.marker(
+            [12.0283, 93.0017],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_808560ba8ca84e05811dbe2e80137e9e);
+        
+    
+
+                var icon_da26caeeaf6a418886be4d5cf6050f27 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e074422fcd5d42eb9101c55da100da7e.setIcon(icon_da26caeeaf6a418886be4d5cf6050f27);
+            
+    
+            var popup_c95517edaff745cfbc7f5c48f9125bb5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1feb909bf85b49a1abd42b3b7f3acd41 = $(`<div id="html_1feb909bf85b49a1abd42b3b7f3acd41" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Symphony Palm Beach Resort</strong></a></div>`)[0];
+                popup_c95517edaff745cfbc7f5c48f9125bb5.setContent(html_1feb909bf85b49a1abd42b3b7f3acd41);
+            
+
+            marker_e074422fcd5d42eb9101c55da100da7e.bindPopup(popup_c95517edaff745cfbc7f5c48f9125bb5)
+            ;
+
+            
+        
+    
+        marker_e074422fcd5d42eb9101c55da100da7e.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_1afd4f9285234dedb47a0ecb091c396a = L.marker(
+            [12.3162, 92.8428],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_808560ba8ca84e05811dbe2e80137e9e);
+        
+    
+
+                var icon_38ca788cf55a45eaac3d5c4d4aaed32e = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1afd4f9285234dedb47a0ecb091c396a.setIcon(icon_38ca788cf55a45eaac3d5c4d4aaed32e);
+            
+    
+            var popup_e8e4ba0472a84addb7eea4be679cd299 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_471675ab78e44f64ae7478768c2cbc1d = $(`<div id="html_471675ab78e44f64ae7478768c2cbc1d" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Summer Sands Beach Resort</strong></a></div>`)[0];
+                popup_e8e4ba0472a84addb7eea4be679cd299.setContent(html_471675ab78e44f64ae7478768c2cbc1d);
+            
+
+            marker_1afd4f9285234dedb47a0ecb091c396a.bindPopup(popup_e8e4ba0472a84addb7eea4be679cd299)
+            ;
+
+            
+        
+    
+        marker_1afd4f9285234dedb47a0ecb091c396a.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5e6c7764e58f429eb5422f8aeb11b03b = L.marker(
+            [12.0213, 93.0063],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_808560ba8ca84e05811dbe2e80137e9e);
+        
+    
+
+                var icon_fd72d2e107fc4cea8a03eb7d7e8a853c = L.AwesomeMarkers.icon({
+                    icon: 'cutlery',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5e6c7764e58f429eb5422f8aeb11b03b.setIcon(icon_fd72d2e107fc4cea8a03eb7d7e8a853c);
+            
+    
+            var popup_e78bc4fd2ccf4af7812c626787fea0f5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b143d96fcc9f44389afb234b615a434b = $(`<div id="html_b143d96fcc9f44389afb234b615a434b" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Fat Martin</strong></a></div>`)[0];
+                popup_e78bc4fd2ccf4af7812c626787fea0f5.setContent(html_b143d96fcc9f44389afb234b615a434b);
+            
+
+            marker_5e6c7764e58f429eb5422f8aeb11b03b.bindPopup(popup_e78bc4fd2ccf4af7812c626787fea0f5)
+            ;
+
+            
+        
+    
+        marker_5e6c7764e58f429eb5422f8aeb11b03b.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_640e96a1f2b844b8818a3a08a7568e4d = L.marker(
+            [12.0357, 92.9897],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_808560ba8ca84e05811dbe2e80137e9e);
+        
+    
+
+                var icon_c34a99ca1cdf494c8da757471e4284a2 = L.AwesomeMarkers.icon({
+                    icon: 'cutlery',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_640e96a1f2b844b8818a3a08a7568e4d.setIcon(icon_c34a99ca1cdf494c8da757471e4284a2);
+            
+    
+            var popup_e7e2abc4f55946a69f36b1112d63ced6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fcd9b1c3fbf844d482fd491aa82b7b1d = $(`<div id="html_fcd9b1c3fbf844d482fd491aa82b7b1d" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Beachside Cafe</strong></a></div>`)[0];
+                popup_e7e2abc4f55946a69f36b1112d63ced6.setContent(html_fcd9b1c3fbf844d482fd491aa82b7b1d);
+            
+
+            marker_640e96a1f2b844b8818a3a08a7568e4d.bindPopup(popup_e7e2abc4f55946a69f36b1112d63ced6)
+            ;
+
+            
+        
+    
+        marker_640e96a1f2b844b8818a3a08a7568e4d.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_50c56bd32d474dbbb61e2b21bcfb93aa = L.marker(
+            [12.0236, 93.0044],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_808560ba8ca84e05811dbe2e80137e9e);
+        
+    
+
+                var icon_76bf4c68efe5431081834bc393377d6e = L.AwesomeMarkers.icon({
+                    icon: 'cutlery',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_50c56bd32d474dbbb61e2b21bcfb93aa.setIcon(icon_76bf4c68efe5431081834bc393377d6e);
+            
+    
+            var popup_9340def4aa0c429f8761e9b371c01c9e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e014c4d6faa441e29d26f49cd5e098a7 = $(`<div id="html_e014c4d6faa441e29d26f49cd5e098a7" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Anju Coco Resto</strong></a></div>`)[0];
+                popup_9340def4aa0c429f8761e9b371c01c9e.setContent(html_e014c4d6faa441e29d26f49cd5e098a7);
+            
+
+            marker_50c56bd32d474dbbb61e2b21bcfb93aa.bindPopup(popup_9340def4aa0c429f8761e9b371c01c9e)
+            ;
+
+            
+        
+    
+        marker_50c56bd32d474dbbb61e2b21bcfb93aa.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+</script>

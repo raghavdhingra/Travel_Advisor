@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_4ca26ac1e6e947e9a90c0338b014895d {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_4ca26ac1e6e947e9a90c0338b014895d" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_4ca26ac1e6e947e9a90c0338b014895d = L.map(
+        'map_4ca26ac1e6e947e9a90c0338b014895d', {
+        center: [15.5006, 73.8313],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_a8ea131fac464c73bc6c4ee0a880be5c = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_4ca26ac1e6e947e9a90c0338b014895d);
+    
+        var marker_fc1b3c9a28ca487f8ce536fecbd8f3e0 = L.marker(
+            [15.5494, 73.7535],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4ca26ac1e6e947e9a90c0338b014895d);
+        
+    
+
+                var icon_a348a62506894d34b681c7d7b7c598f5 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fc1b3c9a28ca487f8ce536fecbd8f3e0.setIcon(icon_a348a62506894d34b681c7d7b7c598f5);
+            
+    
+            var popup_13820763171e4bb9991338a40db7d190 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2027447b30ad431793927c2c989733b0 = $(`<div id="html_2027447b30ad431793927c2c989733b0" style="width: 100.0%; height: 100.0%;"><a href="Calangute/html/index.html" target="blank"><strong>Calangute Beach</strong></a></div>`)[0];
+                popup_13820763171e4bb9991338a40db7d190.setContent(html_2027447b30ad431793927c2c989733b0);
+            
+
+            marker_fc1b3c9a28ca487f8ce536fecbd8f3e0.bindPopup(popup_13820763171e4bb9991338a40db7d190)
+            ;
+
+            
+        
+    
+        marker_fc1b3c9a28ca487f8ce536fecbd8f3e0.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_7494d1e49d10401794660f4c4a1cb55c = L.marker(
+            [15.4926, 73.7737],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4ca26ac1e6e947e9a90c0338b014895d);
+        
+    
+
+                var icon_d35ab62b751e4709abbc666567606e6a = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7494d1e49d10401794660f4c4a1cb55c.setIcon(icon_d35ab62b751e4709abbc666567606e6a);
+            
+    
+            var popup_b3f975b3b77345fabc387a808688f102 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_65df8c03280c427293433c41716c8a52 = $(`<div id="html_65df8c03280c427293433c41716c8a52" style="width: 100.0%; height: 100.0%;"><a href="https://www.travelogyindia.com/goa/fort-aguda.html" target="blank"><strong>Fort Aguada</strong></a></div>`)[0];
+                popup_b3f975b3b77345fabc387a808688f102.setContent(html_65df8c03280c427293433c41716c8a52);
+            
+
+            marker_7494d1e49d10401794660f4c4a1cb55c.bindPopup(popup_b3f975b3b77345fabc387a808688f102)
+            ;
+
+            
+        
+    
+        marker_7494d1e49d10401794660f4c4a1cb55c.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_491568749c11415e91d4af015b854b98 = L.marker(
+            [15.5006, 73.8313],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4ca26ac1e6e947e9a90c0338b014895d);
+        
+    
+
+                var icon_248aaa042ac44f9a8091ff2549fdcabf = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_491568749c11415e91d4af015b854b98.setIcon(icon_248aaa042ac44f9a8091ff2549fdcabf);
+            
+    
+            var popup_414138cc95b041158fa52a9d1764c8ab = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4e4534aa35484c1598479ee4f49f8d7c = $(`<div id="html_4e4534aa35484c1598479ee4f49f8d7c" style="width: 100.0%; height: 100.0%;"><a href="https://india.gobananas.com/activities/goa/night/casino-deltin-royal" target="blank"><strong>Deltin Royale Casino</strong></a></div>`)[0];
+                popup_414138cc95b041158fa52a9d1764c8ab.setContent(html_4e4534aa35484c1598479ee4f49f8d7c);
+            
+
+            marker_491568749c11415e91d4af015b854b98.bindPopup(popup_414138cc95b041158fa52a9d1764c8ab)
+            ;
+
+            
+        
+    
+        marker_491568749c11415e91d4af015b854b98.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_f29c610a779d43fab3bd4b5d62e1e7d8 = L.marker(
+            [15.5444, 73.9248],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4ca26ac1e6e947e9a90c0338b014895d);
+        
+    
+
+                var icon_ccadcd62dd8c4194be830fbf5dfbca11 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f29c610a779d43fab3bd4b5d62e1e7d8.setIcon(icon_ccadcd62dd8c4194be830fbf5dfbca11);
+            
+    
+            var popup_d79cf2fdbc6c4ef6b95112f403284df7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_993ee157a07b4e2ebd05958eaaa3e6be = $(`<div id="html_993ee157a07b4e2ebd05958eaaa3e6be" style="width: 100.0%; height: 100.0%;"><a href="Taj/index.html" target="blank"><strong>Taj Exotica and Spa</strong></a></div>`)[0];
+                popup_d79cf2fdbc6c4ef6b95112f403284df7.setContent(html_993ee157a07b4e2ebd05958eaaa3e6be);
+            
+
+            marker_f29c610a779d43fab3bd4b5d62e1e7d8.bindPopup(popup_d79cf2fdbc6c4ef6b95112f403284df7)
+            ;
+
+            
+        
+    
+        marker_f29c610a779d43fab3bd4b5d62e1e7d8.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_48a41abba5a241e48090d097de132fee = L.marker(
+            [15.5061, 73.7699],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4ca26ac1e6e947e9a90c0338b014895d);
+        
+    
+
+                var icon_700fe846d6f44a45a29ea84920db86d3 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_48a41abba5a241e48090d097de132fee.setIcon(icon_700fe846d6f44a45a29ea84920db86d3);
+            
+    
+            var popup_26400df516764a3e9542edb2c051b0c2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ff07067944ea438582996dfb61747e49 = $(`<div id="html_ff07067944ea438582996dfb61747e49" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Santana Beach Resort</strong></a></div>`)[0];
+                popup_26400df516764a3e9542edb2c051b0c2.setContent(html_ff07067944ea438582996dfb61747e49);
+            
+
+            marker_48a41abba5a241e48090d097de132fee.bindPopup(popup_26400df516764a3e9542edb2c051b0c2)
+            ;
+
+            
+        
+    
+        marker_48a41abba5a241e48090d097de132fee.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_547013b80c0f423cb8668394213332d0 = L.marker(
+            [15.5738, 73.7599],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4ca26ac1e6e947e9a90c0338b014895d);
+        
+    
+
+                var icon_9ba57e5f2458478f8c65ea5243fe04d7 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_547013b80c0f423cb8668394213332d0.setIcon(icon_9ba57e5f2458478f8c65ea5243fe04d7);
+            
+    
+            var popup_b6b0121d9f9b42a0bf53ca74a241e520 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3ba1d146b8df49cabe3627beb431af6f = $(`<div id="html_3ba1d146b8df49cabe3627beb431af6f" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Park Regis</strong></a></div>`)[0];
+                popup_b6b0121d9f9b42a0bf53ca74a241e520.setContent(html_3ba1d146b8df49cabe3627beb431af6f);
+            
+
+            marker_547013b80c0f423cb8668394213332d0.bindPopup(popup_b6b0121d9f9b42a0bf53ca74a241e520)
+            ;
+
+            
+        
+    
+        marker_547013b80c0f423cb8668394213332d0.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_700657e24ecc441b8548538c14670cbe = L.marker(
+            [15.5346, 73.758],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4ca26ac1e6e947e9a90c0338b014895d);
+        
+    
+
+                var icon_1f91a1242ae84194a02b36bc2d798942 = L.AwesomeMarkers.icon({
+                    icon: 'cutlery',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_700657e24ecc441b8548538c14670cbe.setIcon(icon_1f91a1242ae84194a02b36bc2d798942);
+            
+    
+            var popup_c978222ae5034936aaa74ca5cd145a9c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bf7d3d3a28944e399a1aab7dba6d2ae4 = $(`<div id="html_bf7d3d3a28944e399a1aab7dba6d2ae4" style="width: 100.0%; height: 100.0%;"><a href="https://lbb.in/goa/rustic-simplicity-pousada-by-the-beach-goa/" target="blank"><strong>Pousada By The Beach</strong></a></div>`)[0];
+                popup_c978222ae5034936aaa74ca5cd145a9c.setContent(html_bf7d3d3a28944e399a1aab7dba6d2ae4);
+            
+
+            marker_700657e24ecc441b8548538c14670cbe.bindPopup(popup_c978222ae5034936aaa74ca5cd145a9c)
+            ;
+
+            
+        
+    
+        marker_700657e24ecc441b8548538c14670cbe.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_ceb729b962274c92aa4a63bdbb014b01 = L.marker(
+            [15.4984, 73.8266],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4ca26ac1e6e947e9a90c0338b014895d);
+        
+    
+
+                var icon_36d780e28f59415da10197d6e72a7c56 = L.AwesomeMarkers.icon({
+                    icon: 'cutlery',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ceb729b962274c92aa4a63bdbb014b01.setIcon(icon_36d780e28f59415da10197d6e72a7c56);
+            
+    
+            var popup_3359e0370e85480385fd5228a4346b4a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_aec011b205a14af1995237fe438e584c = $(`<div id="html_aec011b205a14af1995237fe438e584c" style="width: 100.0%; height: 100.0%;"><a href="goa_cuisine/index.html" target="blank"><strong>Ritz Classic Restaurant and Bar</strong></a></div>`)[0];
+                popup_3359e0370e85480385fd5228a4346b4a.setContent(html_aec011b205a14af1995237fe438e584c);
+            
+
+            marker_ceb729b962274c92aa4a63bdbb014b01.bindPopup(popup_3359e0370e85480385fd5228a4346b4a)
+            ;
+
+            
+        
+    
+        marker_ceb729b962274c92aa4a63bdbb014b01.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c272fe570d974988896838910a6666cc = L.marker(
+            [15.5389, 73.8184],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4ca26ac1e6e947e9a90c0338b014895d);
+        
+    
+
+                var icon_677777e914a244fc91f5a535fe2e20a3 = L.AwesomeMarkers.icon({
+                    icon: 'cutlery',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c272fe570d974988896838910a6666cc.setIcon(icon_677777e914a244fc91f5a535fe2e20a3);
+            
+    
+            var popup_9dc529d6176e48a2af3cb76781435390 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3f1def29a8a248cb9cde148fffaf27e8 = $(`<div id="html_3f1def29a8a248cb9cde148fffaf27e8" style="width: 100.0%; height: 100.0%;"><a href="http://www.copperleafgoa.com/" target="blank"><strong>Copperleaf</strong></a></div>`)[0];
+                popup_9dc529d6176e48a2af3cb76781435390.setContent(html_3f1def29a8a248cb9cde148fffaf27e8);
+            
+
+            marker_c272fe570d974988896838910a6666cc.bindPopup(popup_9dc529d6176e48a2af3cb76781435390)
+            ;
+
+            
+        
+    
+        marker_c272fe570d974988896838910a6666cc.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+</script>

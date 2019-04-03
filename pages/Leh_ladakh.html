@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_0084ee45ef5b45f99624187fb582f2d6 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_0084ee45ef5b45f99624187fb582f2d6" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_0084ee45ef5b45f99624187fb582f2d6 = L.map(
+        'map_0084ee45ef5b45f99624187fb582f2d6', {
+        center: [33.4562, 78.0325],
+        zoom: 7,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_71402f5e815e4636a0fae7fe16699cd2 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_0084ee45ef5b45f99624187fb582f2d6);
+    
+        var marker_891d7883b2844382934128c5ebf1a145 = L.marker(
+            [33.4562, 78.0325],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_0084ee45ef5b45f99624187fb582f2d6);
+        
+    
+
+                var icon_6043789f7ff94a4ca49f3fe7c2388530 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_891d7883b2844382934128c5ebf1a145.setIcon(icon_6043789f7ff94a4ca49f3fe7c2388530);
+            
+    
+            var popup_84c382e36232423ca15ac77e93e4ca41 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e209a6cbe9694b538309351951ea6703 = $(`<div id="html_e209a6cbe9694b538309351951ea6703" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Zen Scar Valley</strong></a></div>`)[0];
+                popup_84c382e36232423ca15ac77e93e4ca41.setContent(html_e209a6cbe9694b538309351951ea6703);
+            
+
+            marker_891d7883b2844382934128c5ebf1a145.bindPopup(popup_84c382e36232423ca15ac77e93e4ca41)
+            ;
+
+            
+        
+    
+        marker_891d7883b2844382934128c5ebf1a145.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_b7aa9dab9f304d1e81bae7318b525297 = L.marker(
+            [33.7595, 78.6675],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_0084ee45ef5b45f99624187fb582f2d6);
+        
+    
+
+                var icon_1011392ec1234f08b0ae13e33c90c03f = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b7aa9dab9f304d1e81bae7318b525297.setIcon(icon_1011392ec1234f08b0ae13e33c90c03f);
+            
+    
+            var popup_eba558723179424ca07cdbdd508139eb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dec7d5144c1b4fdebf125ac1de762eb9 = $(`<div id="html_dec7d5144c1b4fdebf125ac1de762eb9" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Pangong Tso Lake</strong></a></div>`)[0];
+                popup_eba558723179424ca07cdbdd508139eb.setContent(html_dec7d5144c1b4fdebf125ac1de762eb9);
+            
+
+            marker_b7aa9dab9f304d1e81bae7318b525297.bindPopup(popup_eba558723179424ca07cdbdd508139eb)
+            ;
+
+            
+        
+    
+        marker_b7aa9dab9f304d1e81bae7318b525297.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5ea8adfc5c4348058f8a2ba3e03c2b86 = L.marker(
+            [32.9856, 78.9654],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_0084ee45ef5b45f99624187fb582f2d6);
+        
+    
+
+                var icon_994154c039844b5ebac1d4884b5b308c = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5ea8adfc5c4348058f8a2ba3e03c2b86.setIcon(icon_994154c039844b5ebac1d4884b5b308c);
+            
+    
+            var popup_9b74004f9dd74d3088254218a5712017 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_22b0a36cea07479bbdde246b386e6d74 = $(`<div id="html_22b0a36cea07479bbdde246b386e6d74" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Khardung-La Pass</strong></a></div>`)[0];
+                popup_9b74004f9dd74d3088254218a5712017.setContent(html_22b0a36cea07479bbdde246b386e6d74);
+            
+
+            marker_5ea8adfc5c4348058f8a2ba3e03c2b86.bindPopup(popup_9b74004f9dd74d3088254218a5712017)
+            ;
+
+            
+        
+    
+        marker_5ea8adfc5c4348058f8a2ba3e03c2b86.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_dd44d431c8c94002b9e63d84b17ca60c = L.marker(
+            [34.1566, 77.5805],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_0084ee45ef5b45f99624187fb582f2d6);
+        
+    
+
+                var icon_871e801ea4cc43e780b5a0cb7cd58921 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dd44d431c8c94002b9e63d84b17ca60c.setIcon(icon_871e801ea4cc43e780b5a0cb7cd58921);
+            
+    
+            var popup_c9039d6a363349cfab613eebb0201891 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_80fcadde0f224a78bb30c534c7976352 = $(`<div id="html_80fcadde0f224a78bb30c534c7976352" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>The Grand Dragon</strong></a></div>`)[0];
+                popup_c9039d6a363349cfab613eebb0201891.setContent(html_80fcadde0f224a78bb30c534c7976352);
+            
+
+            marker_dd44d431c8c94002b9e63d84b17ca60c.bindPopup(popup_c9039d6a363349cfab613eebb0201891)
+            ;
+
+            
+        
+    
+        marker_dd44d431c8c94002b9e63d84b17ca60c.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_6aa0f125e8e44d0aa46a33dbb9038ec0 = L.marker(
+            [34.1587, 77.5746],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_0084ee45ef5b45f99624187fb582f2d6);
+        
+    
+
+                var icon_4d7c3219e7d046388cf84e7b87517192 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6aa0f125e8e44d0aa46a33dbb9038ec0.setIcon(icon_4d7c3219e7d046388cf84e7b87517192);
+            
+    
+            var popup_3dc1f48b5f994d23840d1de681ce6aab = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f3684e3c632c416e9a6480a081c7323a = $(`<div id="html_f3684e3c632c416e9a6480a081c7323a" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>The Zen Ladakh Resort</strong></a></div>`)[0];
+                popup_3dc1f48b5f994d23840d1de681ce6aab.setContent(html_f3684e3c632c416e9a6480a081c7323a);
+            
+
+            marker_6aa0f125e8e44d0aa46a33dbb9038ec0.bindPopup(popup_3dc1f48b5f994d23840d1de681ce6aab)
+            ;
+
+            
+        
+    
+        marker_6aa0f125e8e44d0aa46a33dbb9038ec0.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_bfb1b335d6394e65b1f058b12fc1ddda = L.marker(
+            [34.1616, 77.5834],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_0084ee45ef5b45f99624187fb582f2d6);
+        
+    
+
+                var icon_5f85db73ad7f488caf29282e1655b2ed = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bfb1b335d6394e65b1f058b12fc1ddda.setIcon(icon_5f85db73ad7f488caf29282e1655b2ed);
+            
+    
+            var popup_a1afed9abf1b4882bd9ba0fe6a62cb1a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_148ebd94264f4a6b9b02bb9a9314125e = $(`<div id="html_148ebd94264f4a6b9b02bb9a9314125e" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Hotel Singge Palace</strong></a></div>`)[0];
+                popup_a1afed9abf1b4882bd9ba0fe6a62cb1a.setContent(html_148ebd94264f4a6b9b02bb9a9314125e);
+            
+
+            marker_bfb1b335d6394e65b1f058b12fc1ddda.bindPopup(popup_a1afed9abf1b4882bd9ba0fe6a62cb1a)
+            ;
+
+            
+        
+    
+        marker_bfb1b335d6394e65b1f058b12fc1ddda.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_81105e2669d04648a638c4fc2254cc2c = L.marker(
+            [34.1638, 77.5812],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_0084ee45ef5b45f99624187fb582f2d6);
+        
+    
+
+                var icon_7c4a19bd017d41ad94dedb989c994df1 = L.AwesomeMarkers.icon({
+                    icon: 'cutlery',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_81105e2669d04648a638c4fc2254cc2c.setIcon(icon_7c4a19bd017d41ad94dedb989c994df1);
+            
+    
+            var popup_b740ef2bd8bb40e49f46afaa22a248f8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e1e38833b7ef4d78b75e9270ba41cb9b = $(`<div id="html_e1e38833b7ef4d78b75e9270ba41cb9b" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Tibetan Kitchen</strong></a></div>`)[0];
+                popup_b740ef2bd8bb40e49f46afaa22a248f8.setContent(html_e1e38833b7ef4d78b75e9270ba41cb9b);
+            
+
+            marker_81105e2669d04648a638c4fc2254cc2c.bindPopup(popup_b740ef2bd8bb40e49f46afaa22a248f8)
+            ;
+
+            
+        
+    
+        marker_81105e2669d04648a638c4fc2254cc2c.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_afdaadd8b9c74d34b689fbdfc86c89be = L.marker(
+            [34.1526, 77.5771],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_0084ee45ef5b45f99624187fb582f2d6);
+        
+    
+
+                var icon_18a67af9f6e6473788a0f9954547cd05 = L.AwesomeMarkers.icon({
+                    icon: 'cutlery',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_afdaadd8b9c74d34b689fbdfc86c89be.setIcon(icon_18a67af9f6e6473788a0f9954547cd05);
+            
+    
+            var popup_1bbfadf200d24b509253663dbfc7aa51 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bdea33e44f254c42b5d8e22e90e2cb56 = $(`<div id="html_bdea33e44f254c42b5d8e22e90e2cb56" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Yum Yum Food Cafe</strong></a></div>`)[0];
+                popup_1bbfadf200d24b509253663dbfc7aa51.setContent(html_bdea33e44f254c42b5d8e22e90e2cb56);
+            
+
+            marker_afdaadd8b9c74d34b689fbdfc86c89be.bindPopup(popup_1bbfadf200d24b509253663dbfc7aa51)
+            ;
+
+            
+        
+    
+        marker_afdaadd8b9c74d34b689fbdfc86c89be.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_0e2d69cb9b6a47858ae45c38f238e692 = L.marker(
+            [34.1643, 77.5843],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_0084ee45ef5b45f99624187fb582f2d6);
+        
+    
+
+                var icon_b5e9db7854e644fea87f1ee97e5d3cce = L.AwesomeMarkers.icon({
+                    icon: 'cutlery',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0e2d69cb9b6a47858ae45c38f238e692.setIcon(icon_b5e9db7854e644fea87f1ee97e5d3cce);
+            
+    
+            var popup_f037e189ab334bfa8ddf748a64f9761f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7de14044350c420b98669e1a424bdb69 = $(`<div id="html_7de14044350c420b98669e1a424bdb69" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Appletree Restaurant And German Bakery</strong></a></div>`)[0];
+                popup_f037e189ab334bfa8ddf748a64f9761f.setContent(html_7de14044350c420b98669e1a424bdb69);
+            
+
+            marker_0e2d69cb9b6a47858ae45c38f238e692.bindPopup(popup_f037e189ab334bfa8ddf748a64f9761f)
+            ;
+
+            
+        
+    
+        marker_0e2d69cb9b6a47858ae45c38f238e692.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+</script>

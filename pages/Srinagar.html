@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_188263aa969f4813a0ab663f1ecec63a {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_188263aa969f4813a0ab663f1ecec63a" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_188263aa969f4813a0ab663f1ecec63a = L.map(
+        'map_188263aa969f4813a0ab663f1ecec63a', {
+        center: [34.1229, 74.863],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_9d9a90339d4946eab1dbc1eb32b66a59 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_188263aa969f4813a0ab663f1ecec63a);
+    
+        var marker_8c99a44e100b493ea7f2ce73830c6a62 = L.marker(
+            [34.1229, 74.863],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_188263aa969f4813a0ab663f1ecec63a);
+        
+    
+
+                var icon_a864ddadff2f454da0a2c1e32e15dc55 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8c99a44e100b493ea7f2ce73830c6a62.setIcon(icon_a864ddadff2f454da0a2c1e32e15dc55);
+            
+    
+            var popup_115a59a0ffee4f629bcf608de26b1fc9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8306c9496f5647e89466ae89c0b8303b = $(`<div id="html_8306c9496f5647e89466ae89c0b8303b" style="width: 100.0%; height: 100.0%;"><a href="https://www.beautifulworld.com/asia/india/dal-lake/" target="blank"><strong>Dal Lake</strong></a></div>`)[0];
+                popup_115a59a0ffee4f629bcf608de26b1fc9.setContent(html_8306c9496f5647e89466ae89c0b8303b);
+            
+
+            marker_8c99a44e100b493ea7f2ce73830c6a62.bindPopup(popup_115a59a0ffee4f629bcf608de26b1fc9)
+            ;
+
+            
+        
+    
+        marker_8c99a44e100b493ea7f2ce73830c6a62.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_1feb251d9ac14210aadb5b7c9252b9df = L.marker(
+            [34.1229, 74.8794],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_188263aa969f4813a0ab663f1ecec63a);
+        
+    
+
+                var icon_012827c66e674266b2f665c38ce7b2e7 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1feb251d9ac14210aadb5b7c9252b9df.setIcon(icon_012827c66e674266b2f665c38ce7b2e7);
+            
+    
+            var popup_ba16de1ebd994a35aac8deab8001fd85 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bc817ab00ed2489c86acf9ed1287ccf6 = $(`<div id="html_bc817ab00ed2489c86acf9ed1287ccf6" style="width: 100.0%; height: 100.0%;"><a href="https://www.tourmyindia.com/states/jammu-kashmir/nishant-garden.html" target="blank"><strong>Nishat Bagh</strong></a></div>`)[0];
+                popup_ba16de1ebd994a35aac8deab8001fd85.setContent(html_bc817ab00ed2489c86acf9ed1287ccf6);
+            
+
+            marker_1feb251d9ac14210aadb5b7c9252b9df.bindPopup(popup_ba16de1ebd994a35aac8deab8001fd85)
+            ;
+
+            
+        
+    
+        marker_1feb251d9ac14210aadb5b7c9252b9df.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5ffdd6dbaa344d109bc21b289eafb68c = L.marker(
+            [34.1485, 74.8696],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_188263aa969f4813a0ab663f1ecec63a);
+        
+    
+
+                var icon_9860147825d44821864cb1f2a630463f = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5ffdd6dbaa344d109bc21b289eafb68c.setIcon(icon_9860147825d44821864cb1f2a630463f);
+            
+    
+            var popup_9971c4d4df754c86806863c2c4ee029c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_619250739d30433a9ff42267af99e726 = $(`<div id="html_619250739d30433a9ff42267af99e726" style="width: 100.0%; height: 100.0%;"><a href="https://www.tourmyindia.com/states/jammu-kashmir/shalimar-garden.html" target="blank"><strong>Shalimar Bagh</strong></a></div>`)[0];
+                popup_9971c4d4df754c86806863c2c4ee029c.setContent(html_619250739d30433a9ff42267af99e726);
+            
+
+            marker_5ffdd6dbaa344d109bc21b289eafb68c.bindPopup(popup_9971c4d4df754c86806863c2c4ee029c)
+            ;
+
+            
+        
+    
+        marker_5ffdd6dbaa344d109bc21b289eafb68c.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5d918528224f473a976aafe5476ba0f4 = L.marker(
+            [34.1026, 74.8814],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_188263aa969f4813a0ab663f1ecec63a);
+        
+    
+
+                var icon_8ee518f6a9be4cc79f65541fde39ac05 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5d918528224f473a976aafe5476ba0f4.setIcon(icon_8ee518f6a9be4cc79f65541fde39ac05);
+            
+    
+            var popup_26e30bd63e8f479b8be6b7fd8c62b140 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fd8f4cd40c7e430c91b59a358933f6cc = $(`<div id="html_fd8f4cd40c7e430c91b59a358933f6cc" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Vivanta by Taj</strong></a></div>`)[0];
+                popup_26e30bd63e8f479b8be6b7fd8c62b140.setContent(html_fd8f4cd40c7e430c91b59a358933f6cc);
+            
+
+            marker_5d918528224f473a976aafe5476ba0f4.bindPopup(popup_26e30bd63e8f479b8be6b7fd8c62b140)
+            ;
+
+            
+        
+    
+        marker_5d918528224f473a976aafe5476ba0f4.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_4cafc65be30e4951bd8f57e60df8d909 = L.marker(
+            [34.174, 74.8261],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_188263aa969f4813a0ab663f1ecec63a);
+        
+    
+
+                var icon_105e421629a146fdae2c0bf7d3702b5e = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4cafc65be30e4951bd8f57e60df8d909.setIcon(icon_105e421629a146fdae2c0bf7d3702b5e);
+            
+    
+            var popup_ffbd94cc6c784299b0b9a22eaab858ba = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e38cb4b185b94f229fb236198d58b949 = $(`<div id="html_e38cb4b185b94f229fb236198d58b949" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>The Orchard Retreat & Spa </strong></a></div>`)[0];
+                popup_ffbd94cc6c784299b0b9a22eaab858ba.setContent(html_e38cb4b185b94f229fb236198d58b949);
+            
+
+            marker_4cafc65be30e4951bd8f57e60df8d909.bindPopup(popup_ffbd94cc6c784299b0b9a22eaab858ba)
+            ;
+
+            
+        
+    
+        marker_4cafc65be30e4951bd8f57e60df8d909.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_ab136c85afec415db6644bd58d4459f0 = L.marker(
+            [34.116, 74.8293],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_188263aa969f4813a0ab663f1ecec63a);
+        
+    
+
+                var icon_02c9879a79f94da99bc8338218137df8 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ab136c85afec415db6644bd58d4459f0.setIcon(icon_02c9879a79f94da99bc8338218137df8);
+            
+    
+            var popup_9627960174b146e697384a0d6683942a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c5b728b4c5e5471599d32f3c5ac35150 = $(`<div id="html_c5b728b4c5e5471599d32f3c5ac35150" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Peacock House Boat</strong></a></div>`)[0];
+                popup_9627960174b146e697384a0d6683942a.setContent(html_c5b728b4c5e5471599d32f3c5ac35150);
+            
+
+            marker_ab136c85afec415db6644bd58d4459f0.bindPopup(popup_9627960174b146e697384a0d6683942a)
+            ;
+
+            
+        
+    
+        marker_ab136c85afec415db6644bd58d4459f0.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5a271a776dfe458eaada589e891990cc = L.marker(
+            [34.0724, 74.819],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_188263aa969f4813a0ab663f1ecec63a);
+        
+    
+
+                var icon_95944e31451c4eae8ce86287bf080677 = L.AwesomeMarkers.icon({
+                    icon: 'cutlery',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5a271a776dfe458eaada589e891990cc.setIcon(icon_95944e31451c4eae8ce86287bf080677);
+            
+    
+            var popup_70ba86752bff4e959c480d96a283703a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_696fd62e2e4e4a36be57785d721c35d4 = $(`<div id="html_696fd62e2e4e4a36be57785d721c35d4" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Ahdoos Hotel</strong></a></div>`)[0];
+                popup_70ba86752bff4e959c480d96a283703a.setContent(html_696fd62e2e4e4a36be57785d721c35d4);
+            
+
+            marker_5a271a776dfe458eaada589e891990cc.bindPopup(popup_70ba86752bff4e959c480d96a283703a)
+            ;
+
+            
+        
+    
+        marker_5a271a776dfe458eaada589e891990cc.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_025863313fce47d0bb67d49ff49477fa = L.marker(
+            [34.0849, 74.7978],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_188263aa969f4813a0ab663f1ecec63a);
+        
+    
+
+                var icon_7a6a5947efa644af9b7a0fec02191d59 = L.AwesomeMarkers.icon({
+                    icon: 'cutlery',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_025863313fce47d0bb67d49ff49477fa.setIcon(icon_7a6a5947efa644af9b7a0fec02191d59);
+            
+    
+            var popup_d38370381dde4ce2a9445886b38372d1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3dfe7d41b8e34f6096463fc56cb6a344 = $(`<div id="html_3dfe7d41b8e34f6096463fc56cb6a344" style="width: 100.0%; height: 100.0%;"><a href="http://www.lacimacafe.com/" target="blank"><strong>Lacima Cafe And Pizzeria</strong></a></div>`)[0];
+                popup_d38370381dde4ce2a9445886b38372d1.setContent(html_3dfe7d41b8e34f6096463fc56cb6a344);
+            
+
+            marker_025863313fce47d0bb67d49ff49477fa.bindPopup(popup_d38370381dde4ce2a9445886b38372d1)
+            ;
+
+            
+        
+    
+        marker_025863313fce47d0bb67d49ff49477fa.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_b2c06962aec94c4ebf537184399cb814 = L.marker(
+            [34.0819, 74.832],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_188263aa969f4813a0ab663f1ecec63a);
+        
+    
+
+                var icon_415690f9f4b6493d9fbe0ae419b753bb = L.AwesomeMarkers.icon({
+                    icon: 'cutlery',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b2c06962aec94c4ebf537184399cb814.setIcon(icon_415690f9f4b6493d9fbe0ae419b753bb);
+            
+    
+            var popup_16a97d7031714238913f4e560cdc2d6c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_aba6835467f8414097084d6a77fc0698 = $(`<div id="html_aba6835467f8414097084d6a77fc0698" style="width: 100.0%; height: 100.0%;"><a href="http://www.steamrestaurantilm.com/" target="blank"><strong>Stream Restaurant</strong></a></div>`)[0];
+                popup_16a97d7031714238913f4e560cdc2d6c.setContent(html_aba6835467f8414097084d6a77fc0698);
+            
+
+            marker_b2c06962aec94c4ebf537184399cb814.bindPopup(popup_16a97d7031714238913f4e560cdc2d6c)
+            ;
+
+            
+        
+    
+        marker_b2c06962aec94c4ebf537184399cb814.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+</script>

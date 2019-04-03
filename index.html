@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Travel Advisor | Make Up Your Trip</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://static.thenounproject.com/png/290822-200.png' rel='icon' />
+    <link href='./css/navbar.css' type='text/css' rel='stylesheet' />
+    <link href='./css/main.css' type='text/css' rel='stylesheet'/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
+</head>
+<body>
+    <!--NavBar after scrolling------------------->
+    <div class='navbar_2' id='nav_2'>
+        <font><i class="fab fa-ravelry"></i> Travel Advisor <font size='3'>Make Your Trip Better</font></font>
+        <left onclick='open_nav();'>
+                <i class="fas fa-bars"></i>
+        </left>
+    </div>
+    <div class='opened_navbar' id='opened_navbar'>
+        <right onclick='close_nav();'><i class="fas fa-angle-right"></i></right><center>
+        <a href='#home'><div id='opened_elmt'>Home</div></a>
+        <a href='#home_sec'><div id='opened_elmt'>About</div></a>
+        <a href='#home_third'><div id='opened_elmt'>Regions</div></a>
+        <a href='#home_contact'><div id='opened_elmt'>Contact Us</div></a></center>
+    </div>
+<!------------------------------------------------------------------------>
+<div class='home_start' id='home'>
+    <div class='main_nav'>
+<a href='#home'><div class='active'>Home</div></a>
+<a href='#home_sec'><div class='nav_elmt'>About</div></a>
+<a href='#home_third'><div class='nav_elmt'>Regions</div></a>
+<a href='#home_contact'><div class='nav_elmt'>Contact Us</div></a>
+</div>
+<div class='heading'>Travel Advisor
+  <font class='logo'> Make Your Trip Better</font>
+</div>
+<a href='#home_sec'><div class='get_start_button scrolly'>Get Started</div></a>
+</div>
+<div class='home_sec' id='home_sec'>
+    <!------------>
+    <div class='img_1'></div>
+    <!------------>
+    <div style="position: relative;top:70px;">
+    <div class='heading_2'>Pack your bags...<br>We’re going on an amazing vacation!<hr></div>
+    <div></div>
+    <div>Here with Travel Advisor you can search for a travel destination of your choice in a very convenient way.</div>
+    <center><div style='width: 50%;'>First of all, you will get suggestions on the basis of current whether and season which are the best places to visit. If you are not interested in any of them, you can search on the basis
+            of the type of terrain you want to visit , for example: coastal area, hill stations, etc...</div>
+   <div></div>
+            <div style='width: 50%;'>
+        Afterwards, you will be redirected to our very own maps to the destination selected by you along with the most popular attractions and Hotels.
+   </div></center><div></div>
+   <div>You can click on the attraction markers to get redirected to the wholesome guide about the<br> place and similarly by clicking on the hotel markers you can book that particular hotel!</div>
+   </div>
+   <!------------->
+   <div class='img_1'></div>
+   </div>
+   <!-------------------->
+
+<!----Third_page---------------------------------> 
+<div class='home_third' id='home_third'>
+    <center>
+        <div class='third_page_heading'>
+            let us take you away
+        </div>
+    </center>
+<center>
+    <div class='select_container' id='select_1' onclick='drop_down();'>Select Region <i class="fas fa-caret-down"></i></div></center>
+    <center><div class='drop_down_1' id='drop_1'>
+            <div class='drop_content' id='left_drop_1' onclick='sub_drop_1();'>Coastal <i class="fas fa-caret-right"></i></div>
+            <div class='drop_content' id='left_drop_3' onclick='sub_drop_3();'>Hill Stations <i class="fas fa-caret-right"></i></div>
+            <div class='drop_content' id='left_drop_2' onclick='sub_drop_2();'>Desert <i class="fas fa-caret-right"></i></div>
+            <div class='drop_content' id='left_drop_4' onclick='sub_drop_4();'>Plains <i class="fas fa-caret-right"></i></div>
+    </div></center>
+    <!------------->
+    <div class='sub_drop_down_1' id='sub_drop_1'>
+        <a href='./pages/Goa.html'><div class='drop_content'>Goa</div></a>
+        <a href='./pages/Andaman.html'><div class='drop_content'>Andaman</div></a>
+        <a href='./pages/Kerala.html'><div class='drop_content'>Kerala</div></a>
+        <a href='./pages/Coorg.html'><div class='drop_content'>Coorg</div></a>
+    </div>
+    <!------------->
+    <div class='sub_drop_down_2' id='sub_drop_2'>
+            <a href='./pages/Kutch.html'><div class='drop_content'>Kutch</div></a>
+            <a href='./pages/Leh_ladakh.html'><div class='drop_content'>Leh Ladakh</div></a>
+            <a href='#'><div class='drop_content'>Jaisalmer</div></a>
+            <a href='#'><div class='drop_content'>Jodhpur</div></a>
+        </div>
+        <!------------->
+    <div class='sub_drop_down_3' id='sub_drop_3'>
+            <a href='./pages/Srinagar.html'><div class='drop_content'>Srinagar</div></a>
+            <a href='./pages/Shimla.html'><div class='drop_content'>Shimla</div></a>
+            <a href='./pages/Binsar.html'><div class='drop_content'>Binsar</div></a>
+            <a href='#'><div class='drop_content'>Manali</div></a>
+        </div>
+            <!------------->
+    <div class='sub_drop_down_4' id='sub_drop_4'>
+            <a href='#'><div class='drop_content'>Delhi</div></a>
+            <a href='#'><div class='drop_content'>Chandigarh</div></a>
+            <a href='#'><div class='drop_content'>Kolkata</div></a>
+            <a href='#'><div class='drop_content'>Hyderabad</div></a>
+        </div>
+                <!------------->
+</div>
+<!------------------------------------------------------------------------->
+<div class='home_contact' id='home_contact'>
+    <div class='contact_heading'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us
+        <div class='contact_content'><i class="fas fa-phone"></i> Ph.No: +91-8976456423</div>
+        <div class='contact_content'><i class="fas fa-at"></i> Mail us At: <a href='mailto:travelguide@advisor.com'>travelguide@advisor.com</a></div>
+        <div class='contact_content'><i class="fab fa-whatsapp"></i> Whatsapp: +91-9896846455</div>
+    </div><br><br><br><Br><Br><br><br><br><Br><Br><br><br><br><Br><Br><br><br><br><Br><Br><hr>
+        <center class='contact_link'>
+            <a href='http://www.facebook.com'><i class="fab fa-facebook"></i></a>
+            <a href='http://www.twitter.com'><i class="fab fa-twitter-square"></i></a>
+            <a href='http://plus.google.com'><i class="fab fa-google-plus"></i></a>
+            <a href='http://www.gooogle.com'><i class="fab fa-github"></i></a>
+        </center>
+        <div class='copyright'><i class="far fa-copyright"></i> All Right Reserved 2018<br>
+        <strike>Created with Love</strike> , Keyboard By <b>"The UNITED"</b>
+        </div>
+</div>
+<!---------------------------------------------------------------------------->
+<script src='./js/main.js'>
+</script>
+</body>
+</html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_11216ef6e41b4998865d4d1babf2c7c0 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_11216ef6e41b4998865d4d1babf2c7c0" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_11216ef6e41b4998865d4d1babf2c7c0 = L.map(
+        'map_11216ef6e41b4998865d4d1babf2c7c0', {
+        center: [23.2546, 69.6685],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_fb6a17efe6214988a0c49d18faaf3e47 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_11216ef6e41b4998865d4d1babf2c7c0);
+    
+        var marker_cd888d7bc350475ab187354d52de62db = L.marker(
+            [23.2546, 69.6685],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_11216ef6e41b4998865d4d1babf2c7c0);
+        
+    
+
+                var icon_bc567aa612004ba1b57f837967d7fa75 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cd888d7bc350475ab187354d52de62db.setIcon(icon_bc567aa612004ba1b57f837967d7fa75);
+            
+    
+            var popup_bf2a5ec4c3dd4f2ca075d8e1b3cccdb5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_298f502452394997b3da99f1b3ec4b57 = $(`<div id="html_298f502452394997b3da99f1b3ec4b57" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Prag Mahal</strong></a></div>`)[0];
+                popup_bf2a5ec4c3dd4f2ca075d8e1b3cccdb5.setContent(html_298f502452394997b3da99f1b3ec4b57);
+            
+
+            marker_cd888d7bc350475ab187354d52de62db.bindPopup(popup_bf2a5ec4c3dd4f2ca075d8e1b3cccdb5)
+            ;
+
+            
+        
+    
+        marker_cd888d7bc350475ab187354d52de62db.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_2ce565a4208943dca65c8541d0cb9752 = L.marker(
+            [23.9345, 69.8145],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_11216ef6e41b4998865d4d1babf2c7c0);
+        
+    
+
+                var icon_8324b9c58a03445091e84ffb1c43a62e = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2ce565a4208943dca65c8541d0cb9752.setIcon(icon_8324b9c58a03445091e84ffb1c43a62e);
+            
+    
+            var popup_7d24896845e74c0c8e09e722fc746d55 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1c1f6e0e40a9437cab010d449776f678 = $(`<div id="html_1c1f6e0e40a9437cab010d449776f678" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Kalo Dungar</strong></a></div>`)[0];
+                popup_7d24896845e74c0c8e09e722fc746d55.setContent(html_1c1f6e0e40a9437cab010d449776f678);
+            
+
+            marker_2ce565a4208943dca65c8541d0cb9752.bindPopup(popup_7d24896845e74c0c8e09e722fc746d55)
+            ;
+
+            
+        
+    
+        marker_2ce565a4208943dca65c8541d0cb9752.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_7bd4b19f4ba740b8a328d073b4c87210 = L.marker(
+            [23.2487, 69.6663],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_11216ef6e41b4998865d4d1babf2c7c0);
+        
+    
+
+                var icon_368e41ca779c4bc8ac30a1be10841700 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7bd4b19f4ba740b8a328d073b4c87210.setIcon(icon_368e41ca779c4bc8ac30a1be10841700);
+            
+    
+            var popup_a373b73fbd914292909e1fc11edd662d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_17b453f950f94f40ba6c8195ab102a5b = $(`<div id="html_17b453f950f94f40ba6c8195ab102a5b" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Kutch Museum</strong></a></div>`)[0];
+                popup_a373b73fbd914292909e1fc11edd662d.setContent(html_17b453f950f94f40ba6c8195ab102a5b);
+            
+
+            marker_7bd4b19f4ba740b8a328d073b4c87210.bindPopup(popup_a373b73fbd914292909e1fc11edd662d)
+            ;
+
+            
+        
+    
+        marker_7bd4b19f4ba740b8a328d073b4c87210.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_09f33753083b4b699001390d605cbc67 = L.marker(
+            [23.2349, 69.6457],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_11216ef6e41b4998865d4d1babf2c7c0);
+        
+    
+
+                var icon_4f924bff249c46aabdfd48eee2f4f363 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_09f33753083b4b699001390d605cbc67.setIcon(icon_4f924bff249c46aabdfd48eee2f4f363);
+            
+    
+            var popup_3df4dbf8920642c9a21a724b00f4967f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0b63fe7522624d58b75a99c1cb59aab2 = $(`<div id="html_0b63fe7522624d58b75a99c1cb59aab2" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Regenta Resort Bhuj</strong></a></div>`)[0];
+                popup_3df4dbf8920642c9a21a724b00f4967f.setContent(html_0b63fe7522624d58b75a99c1cb59aab2);
+            
+
+            marker_09f33753083b4b699001390d605cbc67.bindPopup(popup_3df4dbf8920642c9a21a724b00f4967f)
+            ;
+
+            
+        
+    
+        marker_09f33753083b4b699001390d605cbc67.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_e55dec3cc4774aaf9634ff164663a967 = L.marker(
+            [23.0634, 70.1326],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_11216ef6e41b4998865d4d1babf2c7c0);
+        
+    
+
+                var icon_26fcb9b7a2bd40e088241dea79765205 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e55dec3cc4774aaf9634ff164663a967.setIcon(icon_26fcb9b7a2bd40e088241dea79765205);
+            
+    
+            var popup_2a4b976dea854c44ab578889c0166d1d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_32cb624335164e3ab95bd33044e37256 = $(`<div id="html_32cb624335164e3ab95bd33044e37256" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Ambar Sarovar Portico</strong></a></div>`)[0];
+                popup_2a4b976dea854c44ab578889c0166d1d.setContent(html_32cb624335164e3ab95bd33044e37256);
+            
+
+            marker_e55dec3cc4774aaf9634ff164663a967.bindPopup(popup_2a4b976dea854c44ab578889c0166d1d)
+            ;
+
+            
+        
+    
+        marker_e55dec3cc4774aaf9634ff164663a967.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_6064b61709394849892b7540641d2b74 = L.marker(
+            [23.2418, 69.6399],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_11216ef6e41b4998865d4d1babf2c7c0);
+        
+    
+
+                var icon_439d0f2d22474604b4187d457a1b9ede = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6064b61709394849892b7540641d2b74.setIcon(icon_439d0f2d22474604b4187d457a1b9ede);
+            
+    
+            var popup_86d1731e974e4f22804729e43d2da70d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c794ca20004e4e6f8bbf1ac2ea90f757 = $(`<div id="html_c794ca20004e4e6f8bbf1ac2ea90f757" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Divya Jot Residency</strong></a></div>`)[0];
+                popup_86d1731e974e4f22804729e43d2da70d.setContent(html_c794ca20004e4e6f8bbf1ac2ea90f757);
+            
+
+            marker_6064b61709394849892b7540641d2b74.bindPopup(popup_86d1731e974e4f22804729e43d2da70d)
+            ;
+
+            
+        
+    
+        marker_6064b61709394849892b7540641d2b74.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+</script>

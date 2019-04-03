@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+.navbar_2{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    overflow: hidden;
+    height: 0;
+    transition: 0.5s;
+    width: 100%;
+    display: inline-flex;
+    vertical-align: middle;
+    opacity: 0;
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.863);
+}
+font{
+    font-family: 'acme', sans-serif;
+}
+left{
+    position: absolute;
+    right: 35px;
+    color: #999;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 30px;
+}
+left:hover{
+    color: #fff;
+}
+.opened_navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    height: 100%;
+    color: #fff;
+    transition: 0.5s;
+    width: 0;
+    overflow: hidden;
+    background: rgba(0,0,0,0.9);
+}
+right{
+    position: relative;
+    padding: 30px;
+    color: #999;
+    cursor: pointer;
+    font-size: 40px;
+    transition: 0.3s;
+}
+right:hover{
+    color: #fff;
+}
+#opened_elmt{
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.616);
+    color: #999;
+    margin-left: 15%;
+    margin-right:15%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+#opened_elmt:hover{
+    color: #fff;
+}
+#opened_elmt:nth-last-child(1){
+    border:none;
+}
+
+/*Scroll Bar*/
+::-webkit-scrollbar {
+	width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #333; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: linear-gradient(180deg,#fff,#999);
+	box-shadow: 0 0 5px 1px white;
+	border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #aaa; 
+  }

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_5eb87efb197440849c27cb8a90daa099 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_5eb87efb197440849c27cb8a90daa099" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_5eb87efb197440849c27cb8a90daa099 = L.map(
+        'map_5eb87efb197440849c27cb8a90daa099', {
+        center: [12.4571, 75.7164],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_76f670e92da948579f32b1bf1c6f45e9 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_5eb87efb197440849c27cb8a90daa099);
+    
+        var marker_d308197501ef4e1691df2f34cbc57b3f = L.marker(
+            [12.4571, 75.7164],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_5eb87efb197440849c27cb8a90daa099);
+        
+    
+
+                var icon_7b1f4e2e81594301b4bb2f4505b62ac5 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d308197501ef4e1691df2f34cbc57b3f.setIcon(icon_7b1f4e2e81594301b4bb2f4505b62ac5);
+            
+    
+            var popup_3e74d3eaef114d718c1750e54ba6483b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_399ec7a3f5bf4a50af5284aca717b6af = $(`<div id="html_399ec7a3f5bf4a50af5284aca717b6af" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Abbey Falls</strong></a></div>`)[0];
+                popup_3e74d3eaef114d718c1750e54ba6483b.setContent(html_399ec7a3f5bf4a50af5284aca717b6af);
+            
+
+            marker_d308197501ef4e1691df2f34cbc57b3f.bindPopup(popup_3e74d3eaef114d718c1750e54ba6483b)
+            ;
+
+            
+        
+    
+        marker_d308197501ef4e1691df2f34cbc57b3f.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_7d32920c3f934810b9bbcdc96cb44c3e = L.marker(
+            [12.2348, 75.6407],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_5eb87efb197440849c27cb8a90daa099);
+        
+    
+
+                var icon_771f259f854e46f1aebd3df2d5def8b8 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7d32920c3f934810b9bbcdc96cb44c3e.setIcon(icon_771f259f854e46f1aebd3df2d5def8b8);
+            
+    
+            var popup_ffaf7a4879b648fc83e0292b94e4a65c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9f3aebefb56c426e90c8978e979a0e5e = $(`<div id="html_9f3aebefb56c426e90c8978e979a0e5e" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Nalknad Palace</strong></a></div>`)[0];
+                popup_ffaf7a4879b648fc83e0292b94e4a65c.setContent(html_9f3aebefb56c426e90c8978e979a0e5e);
+            
+
+            marker_7d32920c3f934810b9bbcdc96cb44c3e.bindPopup(popup_ffaf7a4879b648fc83e0292b94e4a65c)
+            ;
+
+            
+        
+    
+        marker_7d32920c3f934810b9bbcdc96cb44c3e.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_9be0ea1aac114c05bd45f10ff90b9f38 = L.marker(
+            [12.3465, 75.8417],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_5eb87efb197440849c27cb8a90daa099);
+        
+    
+
+                var icon_977b80310d3549699a8c3091fbafb563 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9be0ea1aac114c05bd45f10ff90b9f38.setIcon(icon_977b80310d3549699a8c3091fbafb563);
+            
+    
+            var popup_5faebb6247ef4b5997cdab92b95fb077 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5a2b0b63510b43c8823bb791d3343bdd = $(`<div id="html_5a2b0b63510b43c8823bb791d3343bdd" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Barapole River</strong></a></div>`)[0];
+                popup_5faebb6247ef4b5997cdab92b95fb077.setContent(html_5a2b0b63510b43c8823bb791d3343bdd);
+            
+
+            marker_9be0ea1aac114c05bd45f10ff90b9f38.bindPopup(popup_5faebb6247ef4b5997cdab92b95fb077)
+            ;
+
+            
+        
+    
+        marker_9be0ea1aac114c05bd45f10ff90b9f38.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_3a29628f9513494c94bc802334b5830b = L.marker(
+            [12.3293, 75.8626],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_5eb87efb197440849c27cb8a90daa099);
+        
+    
+
+                var icon_9c311fc5d70a400dba2fb590d00281b3 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3a29628f9513494c94bc802334b5830b.setIcon(icon_9c311fc5d70a400dba2fb590d00281b3);
+            
+    
+            var popup_80209b804bce4dfcbddddd18a32b44a7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8acb59e9f8d34f64b97a8f4e56619eb5 = $(`<div id="html_8acb59e9f8d34f64b97a8f4e56619eb5" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Zoostel Coorg</strong></a></div>`)[0];
+                popup_80209b804bce4dfcbddddd18a32b44a7.setContent(html_8acb59e9f8d34f64b97a8f4e56619eb5);
+            
+
+            marker_3a29628f9513494c94bc802334b5830b.bindPopup(popup_80209b804bce4dfcbddddd18a32b44a7)
+            ;
+
+            
+        
+    
+        marker_3a29628f9513494c94bc802334b5830b.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_527237293a724dd0b60b492ad4fee082 = L.marker(
+            [12.431, 75.7536],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_5eb87efb197440849c27cb8a90daa099);
+        
+    
+
+                var icon_572d836a387a405da54d6da034b51363 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_527237293a724dd0b60b492ad4fee082.setIcon(icon_572d836a387a405da54d6da034b51363);
+            
+    
+            var popup_689dcd14bf2043e1867cfca8f6e922b9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1be44d55ad1a4d21b09a2f2ac5f815ed = $(`<div id="html_1be44d55ad1a4d21b09a2f2ac5f815ed" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Treebo Vrindavan Coorg</strong></a></div>`)[0];
+                popup_689dcd14bf2043e1867cfca8f6e922b9.setContent(html_1be44d55ad1a4d21b09a2f2ac5f815ed);
+            
+
+            marker_527237293a724dd0b60b492ad4fee082.bindPopup(popup_689dcd14bf2043e1867cfca8f6e922b9)
+            ;
+
+            
+        
+    
+        marker_527237293a724dd0b60b492ad4fee082.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_d077d4bcd3ee4838863abac8199fc14c = L.marker(
+            [12.5064, 75.9484],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_5eb87efb197440849c27cb8a90daa099);
+        
+    
+
+                var icon_4f009c55a59c4732bb74422e576afd46 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d077d4bcd3ee4838863abac8199fc14c.setIcon(icon_4f009c55a59c4732bb74422e576afd46);
+            
+    
+            var popup_70daf73d66c740a3a8ebecb813af0310 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_112fa0cf50d143dab561373a7a2e18b3 = $(`<div id="html_112fa0cf50d143dab561373a7a2e18b3" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Parampara Resort and Spa</strong></a></div>`)[0];
+                popup_70daf73d66c740a3a8ebecb813af0310.setContent(html_112fa0cf50d143dab561373a7a2e18b3);
+            
+
+            marker_d077d4bcd3ee4838863abac8199fc14c.bindPopup(popup_70daf73d66c740a3a8ebecb813af0310)
+            ;
+
+            
+        
+    
+        marker_d077d4bcd3ee4838863abac8199fc14c.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+</script>

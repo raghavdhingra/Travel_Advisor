@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_c4470b50d5b148e7b4bd36a931ec65c2 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_c4470b50d5b148e7b4bd36a931ec65c2" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_c4470b50d5b148e7b4bd36a931ec65c2 = L.map(
+        'map_c4470b50d5b148e7b4bd36a931ec65c2', {
+        center: [27.9305, 88.7346],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_df3078bd7c924f71a2530c93817cdcb8 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_c4470b50d5b148e7b4bd36a931ec65c2);
+    
+        var marker_e01bf5e7f237483db34e3b0a5ae19880 = L.marker(
+            [27.9305, 88.7346],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_c4470b50d5b148e7b4bd36a931ec65c2);
+        
+    
+
+                var icon_c69d3cf305e344e49a76833b53869f03 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e01bf5e7f237483db34e3b0a5ae19880.setIcon(icon_c69d3cf305e344e49a76833b53869f03);
+            
+    
+            var popup_a9e9aa1acb674dd283bf7d3cf53214b4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_709acf0748db4dfd95a8c36345b582b3 = $(`<div id="html_709acf0748db4dfd95a8c36345b582b3" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Zero Point</strong></a></div>`)[0];
+                popup_a9e9aa1acb674dd283bf7d3cf53214b4.setContent(html_709acf0748db4dfd95a8c36345b582b3);
+            
+
+            marker_e01bf5e7f237483db34e3b0a5ae19880.bindPopup(popup_a9e9aa1acb674dd283bf7d3cf53214b4)
+            ;
+
+            
+        
+    
+        marker_e01bf5e7f237483db34e3b0a5ae19880.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_1eab8e9f181b449abc525703965f0683 = L.marker(
+            [27.95, 88.7428],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_c4470b50d5b148e7b4bd36a931ec65c2);
+        
+    
+
+                var icon_18659456fe1e445db2d91a4e816259e3 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1eab8e9f181b449abc525703965f0683.setIcon(icon_18659456fe1e445db2d91a4e816259e3);
+            
+    
+            var popup_d05f57fa4304473881df26e79bb91860 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8f04772357a547de8e7e64fecad6f9cc = $(`<div id="html_8f04772357a547de8e7e64fecad6f9cc" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Pariyadeva Pashan</strong></a></div>`)[0];
+                popup_d05f57fa4304473881df26e79bb91860.setContent(html_8f04772357a547de8e7e64fecad6f9cc);
+            
+
+            marker_1eab8e9f181b449abc525703965f0683.bindPopup(popup_d05f57fa4304473881df26e79bb91860)
+            ;
+
+            
+        
+    
+        marker_1eab8e9f181b449abc525703965f0683.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_708bf1ff545d40918b9d75d42b24e881 = L.marker(
+            [29.6968, 79.7534],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_c4470b50d5b148e7b4bd36a931ec65c2);
+        
+    
+
+                var icon_a4cd00506fba45ec935c566b5d60fe7c = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_708bf1ff545d40918b9d75d42b24e881.setIcon(icon_a4cd00506fba45ec935c566b5d60fe7c);
+            
+    
+            var popup_025d422f83d7455ebc6700baf9196ea1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2dd4aa7bd68f46dd959a2f7578593466 = $(`<div id="html_2dd4aa7bd68f46dd959a2f7578593466" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Marry Budden Estate</strong></a></div>`)[0];
+                popup_025d422f83d7455ebc6700baf9196ea1.setContent(html_2dd4aa7bd68f46dd959a2f7578593466);
+            
+
+            marker_708bf1ff545d40918b9d75d42b24e881.bindPopup(popup_025d422f83d7455ebc6700baf9196ea1)
+            ;
+
+            
+        
+    
+        marker_708bf1ff545d40918b9d75d42b24e881.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_0e13e60a6a3848aaa48e355921b53f06 = L.marker(
+            [29.7049, 79.749],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_c4470b50d5b148e7b4bd36a931ec65c2);
+        
+    
+
+                var icon_8cedc3dd62d9454d97aebac25028fab5 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0e13e60a6a3848aaa48e355921b53f06.setIcon(icon_8cedc3dd62d9454d97aebac25028fab5);
+            
+    
+            var popup_b6f741a13da645c2b8a8116e737bcd74 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8f332ad49f4a4b05b517e4c3855733ac = $(`<div id="html_8f332ad49f4a4b05b517e4c3855733ac" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Binsar Forest Retreat</strong></a></div>`)[0];
+                popup_b6f741a13da645c2b8a8116e737bcd74.setContent(html_8f332ad49f4a4b05b517e4c3855733ac);
+            
+
+            marker_0e13e60a6a3848aaa48e355921b53f06.bindPopup(popup_b6f741a13da645c2b8a8116e737bcd74)
+            ;
+
+            
+        
+    
+        marker_0e13e60a6a3848aaa48e355921b53f06.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_156cdc09cadf40b0ae0a64dfe4384c07 = L.marker(
+            [29.6736, 79.7878],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_c4470b50d5b148e7b4bd36a931ec65c2);
+        
+    
+
+                var icon_4ff57cb3a39c46a48619249357f2346d = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_156cdc09cadf40b0ae0a64dfe4384c07.setIcon(icon_4ff57cb3a39c46a48619249357f2346d);
+            
+    
+            var popup_9d1ecc37126c4313b9d1855c7f2fba1e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ea805b9ffe784f17985357ede7cfa075 = $(`<div id="html_ea805b9ffe784f17985357ede7cfa075" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Binsar Eco Camp</strong></a></div>`)[0];
+                popup_9d1ecc37126c4313b9d1855c7f2fba1e.setContent(html_ea805b9ffe784f17985357ede7cfa075);
+            
+
+            marker_156cdc09cadf40b0ae0a64dfe4384c07.bindPopup(popup_9d1ecc37126c4313b9d1855c7f2fba1e)
+            ;
+
+            
+        
+    
+        marker_156cdc09cadf40b0ae0a64dfe4384c07.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_f018053ebe09463aa75a58820ffd8ff2 = L.marker(
+            [29.6989, 79.7028],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_c4470b50d5b148e7b4bd36a931ec65c2);
+        
+    
+
+                var icon_ef03567fb91448dbbaa5a0e837c8bf07 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f018053ebe09463aa75a58820ffd8ff2.setIcon(icon_ef03567fb91448dbbaa5a0e837c8bf07);
+            
+    
+            var popup_11f99296097340efb899ff095be72af1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_71f76ed8e2be499d8a57dc4032573ac9 = $(`<div id="html_71f76ed8e2be499d8a57dc4032573ac9" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Club Mahindra Binsar Valley</strong></a></div>`)[0];
+                popup_11f99296097340efb899ff095be72af1.setContent(html_71f76ed8e2be499d8a57dc4032573ac9);
+            
+
+            marker_f018053ebe09463aa75a58820ffd8ff2.bindPopup(popup_11f99296097340efb899ff095be72af1)
+            ;
+
+            
+        
+    
+        marker_f018053ebe09463aa75a58820ffd8ff2.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+</script>

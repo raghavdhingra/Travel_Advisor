@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_01bcad43ae094e0393eda6184091797f {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_01bcad43ae094e0393eda6184091797f" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_01bcad43ae094e0393eda6184091797f = L.map(
+        'map_01bcad43ae094e0393eda6184091797f', {
+        center: [31.0979, 77.2678],
+        zoom: 11,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_46c0f9ebfe004f4bbee9e689bab55ff1 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_01bcad43ae094e0393eda6184091797f);
+    
+        var marker_c7ac56e6febc467aa1a4198c64be5fd9 = L.marker(
+            [31.0979, 77.2678],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_01bcad43ae094e0393eda6184091797f);
+        
+    
+
+                var icon_febf2c55746541bb8b74be8f23ee5860 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c7ac56e6febc467aa1a4198c64be5fd9.setIcon(icon_febf2c55746541bb8b74be8f23ee5860);
+            
+    
+            var popup_9acdbcae73cd4c36956dffdc7495b409 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7972e6a6a8a74a3583d92fd62d335984 = $(`<div id="html_7972e6a6a8a74a3583d92fd62d335984" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Kufri</strong></a></div>`)[0];
+                popup_9acdbcae73cd4c36956dffdc7495b409.setContent(html_7972e6a6a8a74a3583d92fd62d335984);
+            
+
+            marker_c7ac56e6febc467aa1a4198c64be5fd9.bindPopup(popup_9acdbcae73cd4c36956dffdc7495b409)
+            ;
+
+            
+        
+    
+        marker_c7ac56e6febc467aa1a4198c64be5fd9.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_a40769433d5a40e39f9fe9f2feb6f81b = L.marker(
+            [31.2249, 77.3569],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_01bcad43ae094e0393eda6184091797f);
+        
+    
+
+                var icon_b64a3af22a9e47bd9fd937313a16a2bc = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a40769433d5a40e39f9fe9f2feb6f81b.setIcon(icon_b64a3af22a9e47bd9fd937313a16a2bc);
+            
+    
+            var popup_ab0c3002f08b40f9ba6b51edccff7c5c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3e1ff7fdd0d14e6282946c131f823467 = $(`<div id="html_3e1ff7fdd0d14e6282946c131f823467" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Chadwick Falls</strong></a></div>`)[0];
+                popup_ab0c3002f08b40f9ba6b51edccff7c5c.setContent(html_3e1ff7fdd0d14e6282946c131f823467);
+            
+
+            marker_a40769433d5a40e39f9fe9f2feb6f81b.bindPopup(popup_ab0c3002f08b40f9ba6b51edccff7c5c)
+            ;
+
+            
+        
+    
+        marker_a40769433d5a40e39f9fe9f2feb6f81b.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_1ca9cd529a854bc6aa1942cd9f307c72 = L.marker(
+            [31.1196, 77.1389],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_01bcad43ae094e0393eda6184091797f);
+        
+    
+
+                var icon_8ee131998f8f4dcbbb2612c4e2e204dc = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1ca9cd529a854bc6aa1942cd9f307c72.setIcon(icon_8ee131998f8f4dcbbb2612c4e2e204dc);
+            
+    
+            var popup_5906a86c55414e8d8087578b7031a1a9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a5d58a4469b4466c991c64ae93fe95f3 = $(`<div id="html_a5d58a4469b4466c991c64ae93fe95f3" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Mall Road</strong></a></div>`)[0];
+                popup_5906a86c55414e8d8087578b7031a1a9.setContent(html_a5d58a4469b4466c991c64ae93fe95f3);
+            
+
+            marker_1ca9cd529a854bc6aa1942cd9f307c72.bindPopup(popup_5906a86c55414e8d8087578b7031a1a9)
+            ;
+
+            
+        
+    
+        marker_1ca9cd529a854bc6aa1942cd9f307c72.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_cfa0259452d54416a17ab0c2f3b2a691 = L.marker(
+            [31.1115, 77.1774],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_01bcad43ae094e0393eda6184091797f);
+        
+    
+
+                var icon_874bd6930c244c58b952cea5db09ee94 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cfa0259452d54416a17ab0c2f3b2a691.setIcon(icon_874bd6930c244c58b952cea5db09ee94);
+            
+    
+            var popup_2ee802755d8743aabcf8a764441fe136 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fbec9364b0df448592644e2d9f22c34d = $(`<div id="html_fbec9364b0df448592644e2d9f22c34d" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Raddison Jass</strong></a></div>`)[0];
+                popup_2ee802755d8743aabcf8a764441fe136.setContent(html_fbec9364b0df448592644e2d9f22c34d);
+            
+
+            marker_cfa0259452d54416a17ab0c2f3b2a691.bindPopup(popup_2ee802755d8743aabcf8a764441fe136)
+            ;
+
+            
+        
+    
+        marker_cfa0259452d54416a17ab0c2f3b2a691.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_1ec368106bec462386c0df56a980cbad = L.marker(
+            [31.1141, 77.1303],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_01bcad43ae094e0393eda6184091797f);
+        
+    
+
+                var icon_0bbadd4a108a46a98f33f28b7fb8bfac = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1ec368106bec462386c0df56a980cbad.setIcon(icon_0bbadd4a108a46a98f33f28b7fb8bfac);
+            
+    
+            var popup_d19627dede8440129a72081f0dc19239 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_64c57509d19d4fd8a14b7eef08c362ae = $(`<div id="html_64c57509d19d4fd8a14b7eef08c362ae" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Shimla Nature Villa</strong></a></div>`)[0];
+                popup_d19627dede8440129a72081f0dc19239.setContent(html_64c57509d19d4fd8a14b7eef08c362ae);
+            
+
+            marker_1ec368106bec462386c0df56a980cbad.bindPopup(popup_d19627dede8440129a72081f0dc19239)
+            ;
+
+            
+        
+    
+        marker_1ec368106bec462386c0df56a980cbad.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_f9fddc4066064ea69667c39694306206 = L.marker(
+            [31.106, 77.1326],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_01bcad43ae094e0393eda6184091797f);
+        
+    
+
+                var icon_9f4a6f1770264a5c9793b0f5b0be60a4 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f9fddc4066064ea69667c39694306206.setIcon(icon_9f4a6f1770264a5c9793b0f5b0be60a4);
+            
+    
+            var popup_02722f61cd59459cb045023e5912b0d3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_24e0a9f2d5934cffbf7d7cfd48411a51 = $(`<div id="html_24e0a9f2d5934cffbf7d7cfd48411a51" style="width: 100.0%; height: 100.0%;"><a href="map.html" target="blank"><strong>Evoke Shimla Heaven Resort </strong></a></div>`)[0];
+                popup_02722f61cd59459cb045023e5912b0d3.setContent(html_24e0a9f2d5934cffbf7d7cfd48411a51);
+            
+
+            marker_f9fddc4066064ea69667c39694306206.bindPopup(popup_02722f61cd59459cb045023e5912b0d3)
+            ;
+
+            
+        
+    
+        marker_f9fddc4066064ea69667c39694306206.bindTooltip(
+            `<div>`
+            + `Click For More Info` + `</div>`,
+            {"sticky": true}
+        );
+        
+</script>
